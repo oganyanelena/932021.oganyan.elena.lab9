@@ -1,0 +1,77 @@
+
+.container{
+    width: 650px;
+}
+
+button {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.btn_0 {
+    width:244px;
+}
+
+.equal {
+    height: 255px;
+}
+
+table {
+    border:5px solid #6DACD5;
+    margin: 20px;
+    padding:15px;
+}
+
+td {
+    width: 100%;
+    height: 100%;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+input {
+    width: 608px;
+    height: 80px;
+    margin:5px;
+    font-size: 46px;
+    text-align: right;
+    pointer-events: none;
+    color: #AAA9A9;
+    font-family: Calibri, sans-serif;
+}
+
+.gray-input {
+    position: absolute;
+    width: 608px;
+    height: 80px;
+    margin: 20px auto 20px 9px;
+    font-weight: 0;
+    font-size: 46px;
+    text-align: right;
+    pointer-events: none;
+    font-family: Calibri, sans-serif;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button {
+    animation: none;
+    transition: transform 0.5s ease;
+}
+
+button:active {
+    animation: pulse 0.2s ease;
+}
